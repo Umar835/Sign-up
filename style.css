@@ -1,0 +1,59 @@
+:root{
+    --color: #367E18
+}
+
+*{
+  background-color: #2C3333;
+}
+h1, p{
+  color:var(--color);
+}
+
+form{
+  background-color: rgb(6, 6, 6);
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  background-color: #2C3333;
+    
+}
+.input{
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  opacity: 60%;
+  background-color: #2C3333;  
+}
+.right-side{
+    margin-left: 650px;
+    padding-left: 100px;
+}
+h1{
+   font-size: 4rem;
+}
+.slogan{
+  font-size: 1.3rem;
+}
+.disclaimer{
+  font-size: 1rem;
+  opacity: 70%;
+  color: grey;
+}
+.button{
+    font-weight: 700;
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-top: 4rem;
+    margin-left: 47.2rem;
+    color: var(--color);
+    border: 2px solid var(--color);
+}
+button:hover{
+    background-color: var(--color);
+    color: black;  
+}
